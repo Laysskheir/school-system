@@ -1,0 +1,50 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  name      String
+  email     String   @unique
+  password  String
+  role      Role     @default(USER)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Student {
+  id              String          @id @default(uuid())
+  firstName       String
+  lastName        String
+  gradeLevel      String
+  previousSchool  String
+  admissionStatus AdmissionStatus
+  lastUpdate      DateTime        @updatedAt
+  notes           String?
+
+  createdAt DateTime @default(now())
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum AdmissionStatus {
+  Submitted
+  Scheduled
+  Approved
+  Attended
+  Rescheduled
+  Pending
+  ContractSent
+  Enrolled
+  PackageSent
+  Void
+  Rejected
+}
