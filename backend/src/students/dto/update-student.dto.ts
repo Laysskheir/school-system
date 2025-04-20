@@ -12,7 +12,7 @@ export class UpdateStudentDto {
 
   @IsOptional()
   @IsString()
-  gradeLevel?: string;
+  gradeLevel?: number;
 
   @IsOptional()
   @IsString()

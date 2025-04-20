@@ -53,7 +53,7 @@ export default function AddStudentDialog({ children }: Props) {
     await addStudent({
       firstName,
       lastName,
-      gradeLevel: gradeLevel.toString(),
+      gradeLevel: gradeLevel,
       previousSchool,
       admissionStatus,
       notes,

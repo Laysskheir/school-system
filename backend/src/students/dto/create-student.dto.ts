@@ -1,4 +1,4 @@
-import { IsString, IsOptional, IsEnum } from 'class-validator';
+import { IsString, IsOptional, IsEnum, IsInt } from 'class-validator';
 import { AdmissionStatus } from '@prisma/client';
 
 export class CreateStudentDto {
@@ -8,8 +8,8 @@ export class CreateStudentDto {
   @IsString()
   lastName: string;
 
-  @IsString()
-  gradeLevel: string;
+  @IsInt()
+  gradeLevel: number;
 
   @IsString()
   previousSchool: string;

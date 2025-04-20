@@ -26,9 +26,9 @@ interface Props {
     firstName: string;
     lastName: string;
     gradeLevel: number;
-    previousSchool: string;
+    previousSchool: string | null;
     admissionStatus: AdmissionStatus;
-    notes: string;
+    notes: string | null;
   } | null;
   isOpen: boolean;
   onClose: () => void;
@@ -63,9 +63,9 @@ export default function EditStudentDialog({ student, isOpen, onClose }: Props) {
       setFirstName(student.firstName);
       setLastName(student.lastName);
       setGradeLevel(student.gradeLevel);
-      setPreviousSchool(student.previousSchool);
+      setPreviousSchool(student.previousSchool || "");
       setAdmissionStatus(student.admissionStatus);
-      setNotes(student.notes);
+      setNotes(student.notes || "");
     }
   }, [student]);
 
@@ -74,7 +74,7 @@ export default function EditStudentDialog({ student, isOpen, onClose }: Props) {
     await updateStudent(student.id, {
       firstName,
       lastName,
-      gradeLevel: gradeLevel.toString(),
+      gradeLevel: gradeLevel,
       previousSchool,
       admissionStatus,
       notes,

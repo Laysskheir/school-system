@@ -16,7 +16,7 @@ export interface Student {
   studentId: string;
   firstName: string;
   lastName: string;
-  gradeLevel: string;
+  gradeLevel: number; 
   previousSchool: string | null;
   admissionStatus: AdmissionStatus;
   lastUpdate: string;

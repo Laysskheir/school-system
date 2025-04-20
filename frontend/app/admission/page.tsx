@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
-import {Loader, Plus, SearchIcon } from "lucide-react";
+import { Loader, Plus, SearchIcon } from "lucide-react";
 import { useStudentStore } from "@/store/student-store";
 import StudentTable from "@/app/admission/_components/student-table";
 import { useEffect, useState } from "react";
@@ -61,7 +61,6 @@ export default function AdmissionPage() {
                 </Badge>
               </div>
               <div className="flex items-center gap-2 w-full md:w-auto">
-             
                 <div className="relative w-full">
                   <Input
                     className="peer ps-9 pe-9 w-full"

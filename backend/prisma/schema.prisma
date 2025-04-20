@@ -21,7 +21,7 @@ model Student {
   id              String          @id @default(uuid())
   firstName       String
   lastName        String
-  gradeLevel      String
+  gradeLevel      Int
   previousSchool  String
   admissionStatus AdmissionStatus
   lastUpdate      DateTime        @updatedAt

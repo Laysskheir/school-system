@@ -43,7 +43,7 @@ async function main() {
         {
           firstName: 'Haydar',
           lastName: 'Mehdi',
-          gradeLevel: 'Preschool',
+          gradeLevel: 1,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.Submitted,
           notes: 'Note',
@@ -51,7 +51,7 @@ async function main() {
         {
           firstName: 'Ahmad',
           lastName: 'Yousaf',
-          gradeLevel: 'Pre-k',
+          gradeLevel: 2,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.Scheduled,
           notes: 'Note',
@@ -59,7 +59,7 @@ async function main() {
         {
           firstName: 'Rose',
           lastName: 'Charara',
-          gradeLevel: 'Kindergarten',
+          gradeLevel: 3,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.Approved,
           notes: 'Note',
@@ -67,7 +67,7 @@ async function main() {
         {
           firstName: 'Ali',
           lastName: 'Hassan',
-          gradeLevel: 'Grade 3',
+          gradeLevel: 4,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.Attended,
           notes: 'Note',
@@ -75,7 +75,7 @@ async function main() {
         {
           firstName: 'Lina',
           lastName: 'Khalil',
-          gradeLevel: 'Grade 1',
+          gradeLevel: 5,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.Rescheduled,
           notes: 'Note',
@@ -83,7 +83,7 @@ async function main() {
         {
           firstName: 'Ahmad',
           lastName: 'Yousaf',
-          gradeLevel: 'Grade 7',
+          gradeLevel: 7,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.Pending,
           notes: 'Note',
@@ -91,7 +91,7 @@ async function main() {
         {
           firstName: 'Lara',
           lastName: 'Yousaf',
-          gradeLevel: 'Grade 2',
+          gradeLevel: 2,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.Approved,
           notes: 'Note',
@@ -99,7 +99,7 @@ async function main() {
         {
           firstName: 'Sally',
           lastName: 'Merhi',
-          gradeLevel: 'Grade 4',
+          gradeLevel: 4,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.ContractSent,
           notes: 'Note',
@@ -107,7 +107,7 @@ async function main() {
         {
           firstName: 'Sarah',
           lastName: 'Mehdi',
-          gradeLevel: 'Grade 12',
+          gradeLevel: 12,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.Enrolled,
           notes: 'Note',
@@ -115,7 +115,7 @@ async function main() {
         {
           firstName: 'Lina',
           lastName: 'Nassereddine',
-          gradeLevel: 'Grade 5',
+          gradeLevel: 5,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.PackageSent,
           notes: 'Note',
@@ -123,7 +123,7 @@ async function main() {
         {
           firstName: 'Omar',
           lastName: 'Fakhoury',
-          gradeLevel: 'Grade 9',
+          gradeLevel: 9,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.Rescheduled,
           notes: 'Note',
@@ -131,7 +131,7 @@ async function main() {
         {
           firstName: 'Oussama',
           lastName: 'Hijazi',
-          gradeLevel: 'Grade 7',
+          gradeLevel: 7,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.Rescheduled,
           notes: 'Note',
@@ -139,7 +139,7 @@ async function main() {
         {
           firstName: 'Ali',
           lastName: 'Charara',
-          gradeLevel: 'Grade 10',
+          gradeLevel: 10,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.Void,
           notes: 'Note',
@@ -147,7 +147,7 @@ async function main() {
         {
           firstName: 'Maya',
           lastName: 'Saad',
-          gradeLevel: 'Grade 6',
+          gradeLevel: 6,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.Rejected,
           notes: 'Note',
@@ -155,7 +155,7 @@ async function main() {
         {
           firstName: 'Zeinab',
           lastName: 'Abdallah',
-          gradeLevel: 'Grade 8',
+          gradeLevel: 8,
           previousSchool: 'Cedar Elementary',
           admissionStatus: AdmissionStatus.Submitted,
           notes: 'Note',
@@ -163,7 +163,7 @@ async function main() {
         {
           firstName: 'Karim',
           lastName: 'Nassar',
-          gradeLevel: 'Grade 11',
+          gradeLevel: 11,
           previousSchool: 'International Academy',
           admissionStatus: AdmissionStatus.Attended,
           notes: 'Note',
@@ -171,7 +171,7 @@ async function main() {
         {
           firstName: 'Nour',
           lastName: 'Khoury',
-          gradeLevel: 'Kindergarten',
+          gradeLevel: 1,
           previousSchool: 'Little Stars Daycare',
           admissionStatus: AdmissionStatus.Approved,
           notes: 'Note',
@@ -179,7 +179,7 @@ async function main() {
         {
           firstName: 'Rami',
           lastName: 'Abboud',
-          gradeLevel: 'Grade 5',
+          gradeLevel: 5,
           previousSchool: 'Oakwood Elementary',
           admissionStatus: AdmissionStatus.ContractSent,
           notes: 'Note',
@@ -187,7 +187,7 @@ async function main() {
         {
           firstName: 'Yasmine',
           lastName: 'Hayek',
-          gradeLevel: 'Pre-k',
+          gradeLevel: 2,
           previousSchool: 'None',
           admissionStatus: AdmissionStatus.Scheduled,
           notes: 'Note',
@@ -195,7 +195,7 @@ async function main() {
         {
           firstName: 'Ibrahim',
           lastName: 'Mansour',
-          gradeLevel: 'Grade 9',
+          gradeLevel: 9,
           previousSchool: 'Valley Middle School',
           admissionStatus: AdmissionStatus.PackageSent,
           notes: 'Note',
@@ -203,7 +203,7 @@ async function main() {
         {
           firstName: 'Dalia',
           lastName: 'Hammoud',
-          gradeLevel: 'Grade 2',
+          gradeLevel: 2,
           previousSchool: 'Sunshine Elementary',
           admissionStatus: AdmissionStatus.Pending,
           notes: 'Note',
@@ -211,7 +211,7 @@ async function main() {
         {
           firstName: 'Sami',
           lastName: 'Farhat',
-          gradeLevel: 'Grade 12',
+          gradeLevel: 12,
           previousSchool: 'International School of Beirut',
           admissionStatus: AdmissionStatus.Enrolled,
           notes: 'Note',
@@ -219,7 +219,7 @@ async function main() {
         {
           firstName: 'Leila',
           lastName: 'Darwish',
-          gradeLevel: 'Grade 4',
+          gradeLevel: 4,
           previousSchool: 'Pinecrest Academy',
           admissionStatus: AdmissionStatus.Rescheduled,
           notes: 'Note',
@@ -227,7 +227,7 @@ async function main() {
         {
           firstName: 'Fadi',
           lastName: 'Ayoub',
-          gradeLevel: 'Grade 10',
+          gradeLevel: 10,
           previousSchool: 'Highland High',
           admissionStatus: AdmissionStatus.Rejected,
           notes: 'Note',
@@ -235,7 +235,7 @@ async function main() {
         {
           firstName: 'Hala',
           lastName: 'Zakhour',
-          gradeLevel: 'Grade 1',
+          gradeLevel: 1,
           previousSchool: 'Montessori Academy',
           admissionStatus: AdmissionStatus.Void,
           notes: 'Note',
@@ -243,7 +243,7 @@ async function main() {
         {
           firstName: 'Tarek',
           lastName: 'Saleh',
-          gradeLevel: 'Grade 6',
+          gradeLevel: 6,
           previousSchool: 'Riverdale Elementary',
           admissionStatus: AdmissionStatus.Attended,
           notes: 'Note',
@@ -251,7 +251,7 @@ async function main() {
         {
           firstName: 'Mariam',
           lastName: 'Kassem',
-          gradeLevel: 'Grade 3',
+          gradeLevel: 3,
           previousSchool: 'Previous School',
           admissionStatus: AdmissionStatus.ContractSent,
           notes: 'Note',
@@ -259,7 +259,7 @@ async function main() {
         {
           firstName: 'Hassan',
           lastName: 'Sleiman',
-          gradeLevel: 'Preschool',
+          gradeLevel: 1,
           previousSchool: 'Little Explorers',
           admissionStatus: AdmissionStatus.Submitted,
           notes: 'Note',
@@ -267,7 +267,7 @@ async function main() {
         {
           firstName: 'Rana',
           lastName: 'Hariri',
-          gradeLevel: 'Grade 11',
+          gradeLevel: 11,
           previousSchool: 'Cedar High School',
           admissionStatus: AdmissionStatus.PackageSent,
           notes: 'Note',
