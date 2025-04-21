@@ -104,10 +104,10 @@ const StudentTable = ({ students }: StudentTableProps) => {
   return (
     <div className="bg-background overflow-hidden rounded-md border">
       <div className="overflow-x-auto">
-        <Table>
+        <Table className="min-w-full">
           <TableHeader>
             <TableRow className="bg-secondary/15 hover:bg-secondary/10">
-              <TableHead>Student ID </TableHead>
+              <TableHead>Student ID</TableHead>
               <TableHead>First Name</TableHead>
               <TableHead>Last Name</TableHead>
               <TableHead>Grade Level</TableHead>
@@ -127,7 +127,7 @@ const StudentTable = ({ students }: StudentTableProps) => {
               </TableRow>
             ) : (
               students.map((student) => (
-                <TableRow key={student.id}>
+                <TableRow key={student.id} className="break-words">
                   <TableCell className="font-medium">
                     {student.id.slice(-6)}
                   </TableCell>

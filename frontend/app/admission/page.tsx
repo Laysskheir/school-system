@@ -43,14 +43,14 @@ export default function AdmissionPage() {
 
   return (
     <div className="w-full">
-      <Tabs defaultValue="new">
+      <Tabs defaultValue="new" className="flex flex-col">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="space-y-1 w-full">
-            <TabsList className="bg-accent/10 ">
+            <TabsList className="bg-accent/10">
               <TabsTrigger value="new">New applicants</TabsTrigger>
               <TabsTrigger value="returning">Returning families</TabsTrigger>
             </TabsList>
-            <div className="relative mx-1 ">
+            <div className="relative mx-1">
               <Separator className="w-screen -my-1" />
             </div>
             <div className="flex flex-col md:flex-row items-center justify-between w-full py-2 bg-accent/10 rounded-md">
